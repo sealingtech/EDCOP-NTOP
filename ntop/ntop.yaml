@@ -32,3 +32,6 @@ spec:
           containerPort: 6379
       restartPolicy: Always
       dnsPolicy: ClusterFirst
+      nodeSelector:
+        nodetype: worker
+
