@@ -16,7 +16,7 @@ spec:
       labels:
         app: ntop
       annotations:
-          networks: calico
+          networks: '[ { "name": "calico" }, { "name": "passive" } ]'
     spec:
       containers:
       - name: ntop
