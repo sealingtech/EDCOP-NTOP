@@ -12,6 +12,7 @@ spec:
   - host: physical.edcop.io
     http:
       paths:
-      - backend: 
+      - path: /
+        backend: 
           serviceName: ntop-service
           servicePort: 3000
