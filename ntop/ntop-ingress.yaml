@@ -9,7 +9,7 @@ metadata:
    # ingress.kubernetes.io/auth-secret: "ingress-auth"
 spec:
  rules:
-  - host: physical.edcop.io
+  - host: ntop.physical.edcop.io
     http:
       paths:
       - path: /
