@@ -1,5 +1,4 @@
 FROM ubuntu:16.04
-MAINTAINER Matthew Mckenzie <mmckenzie@vostronet.com>
 
 RUN apt-get update && apt-get -y -q install wget lsb-release
 RUN wget http://apt.ntop.org/16.04/all/apt-ntop.deb
